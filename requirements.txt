@@ -14,6 +14,7 @@ matplotlib==3.3.3
 numpy==1.19.5
 pandas==1.1.5
 parso==0.8.1
+patsy==0.5.1
 pickleshare==0.7.5
 Pillow==8.1.0
 prompt-toolkit==3.0.12
@@ -27,6 +28,7 @@ scikit-learn==0.24.1
 scipy==1.5.4
 seaborn==0.11.1
 six==1.15.0
+statsmodels==0.12.1
 threadpoolctl==2.1.0
 tornado==6.1
 traitlets==4.3.3
