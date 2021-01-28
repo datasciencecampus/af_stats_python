@@ -4,7 +4,7 @@
 
 **Course Duration**
 
-18 Hours
+12 Hours
 
 **Course Summary**
 
