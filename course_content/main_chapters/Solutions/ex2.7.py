@@ -14,8 +14,6 @@ print("AIC Model 1 = ", results_mod1.aic,
 
 ## Model 2
 
-print(results_mod2.summary())
-
 b1 = results_mod2.params['Intercept'] # biology
 b2 = results_mod2.params['C(department)[T.english]'] + results_mod2.params['Intercept'] # english
 b3 = results_mod2.params['C(department)[T.informatics]']  + results_mod2.params['Intercept'] # informatics
@@ -30,7 +28,6 @@ print(b1, b2, b3, b4, b5)
 
 
 ## Model 3
-print(results_mod3.summary())
 
 ##Slope
 a1 = results_mod3.params['experience']
