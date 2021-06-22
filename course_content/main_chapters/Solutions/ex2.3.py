@@ -1,0 +1,1 @@
+# The fact that most of the data points fall outside the confidence intervals (shaded area) reflects that our line of best fit does a poor job of capturing the variation in faculty salaries. The predicted value (our line of best fit) are sometimes over and underestimating faculty salaries by as much as 20,000 dollars. 
