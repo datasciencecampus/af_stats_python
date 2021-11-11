@@ -117,3 +117,4 @@ from scipy.stats import binom # to illustrate the binomial distribution.
 from sklearn import datasets, linear_model # fetching iris dataset and linear model functions
 from sklearn.metrics import mean_squared_error, r2_score
 
+
