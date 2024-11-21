@@ -1,0 +1,25 @@
+---
+title: Datasets 
+format:
+  html:
+    highlight: null
+    theme: default
+    toc: true
+    toc-title: Datasets
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    link-external-newwindow: true
+    embed-resources: true
+jupyter: python3
+---
+![](images/AF_DSC_banner.png){fig-alt="Government Analysis Function and Data Science Campus Logos."}
+
+Below are the list of datasets used throughout the course. Click on the links to download the data files:
+
+## Brooklyn bridge bicycle counts 
+[Download Brooklyn bridge bicycle count](../DSCA_Stats4DS_Python/data/Brooklyn_Bridge_Bicycle_Counts.csv)
+
+## Faculty dataset 
+[Download Faculty dataset](../data/faculty-data.csv)
+

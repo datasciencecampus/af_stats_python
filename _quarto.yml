@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+resources: 
+ - data/
+ 
+website:
+  title: "Statistics in Python"
+
+  
+  sidebar:
+    logo-href: /index.html
+    style: "docked"
+    search: true
+    contents:
+      - text: "Dataset"
+        href: data.qmd 
+      - text: "Course Information"
+        href: index.qmd
+      - text: "Chapter 1 - Exploratory Data Analysis"
+        href: course_content/main_chapters/Chapter 1 - Exploratory Data Analysis.qmd
+      - text: "Chapter 2 - Model Basics"
+        href: course_content/main_chapters/Chapter 2 - Model Basics.qmd  
+      - text: "Chapter 3 - Generalised Linear Models"
+        href: course_content/main_chapters/Chapter 3 - Generalised Linear Models.qmd
+
+format:
+  html:
+    highlight: null
+    theme: 
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-title: Contents
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    link-external-newwindow: true
+    embed-resources: true
+    css: styles.css
