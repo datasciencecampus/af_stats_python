@@ -17,9 +17,10 @@ jupyter: python3
 
 Below are the list of datasets used throughout the course. Click on the links to download the data files:
 
-## Brooklyn bridge bicycle counts 
-[Download Brooklyn bridge bicycle count](../DSCA_Stats4DS_Python/data/Brooklyn_Bridge_Bicycle_Counts.csv)
 
-## Faculty dataset 
-[Download Faculty dataset](../data/faculty-data.csv)
+<p>Download the <a href= "../DSCA_Stats4DS_Python/data/Brooklyn_Bridge_Bicycle_Counts.csv" style="text-decoration:none"><span   style="text-decoration:underline">Brooklyn Bridge Bicycle Counts Data</span></a></p>
+
+<p>Download the <a href= "../data/faculty-data.csv" style="text-decoration:none"><span   style="text-decoration:underline">Faculty Data</span></a></p>
+
+
 

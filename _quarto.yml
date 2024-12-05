@@ -1,8 +1,9 @@
 project:
   type: website
   output-dir: docs
-resources: 
- - data/
+  resources: 
+    - "*.csv"
+    - "*.xlsx"
  
 website:
   title: "Statistics in Python"

@@ -21,6 +21,16 @@ Welcome to the **Statistics in Python** course
 This course introduces the basics of carrying out a statistical analysis in Python. It covers exploratory data analysis and constructing and interpreting linear and generalized linear models. Each chapter builds on the previous one, introducing progressively advanced topics while ensuring practical hands-on experience with relevant Python packages.
 
 
+## Course Materials {-}
+
+The course materials come in several formats:
+
+* HTML pages such as the one you are reading now
+
+* Data [](datasets.qmd) we will use during the course.  **It's highly recommended you create a project with a 'data' folder and download all the required datasets before starting the course**
+
+You can also navigate to the course Github Repository and clone or fork the website structure for yourself.  If you are new to programming and version control, we recommend you remain on the website to gain the best experience.
+
 ## Software Requirements {-}
 * Python (Version 3.7 or higher)
 * Anaconda 
