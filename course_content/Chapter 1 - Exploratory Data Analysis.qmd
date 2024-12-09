@@ -1,20 +1,9 @@
 ---
 title: "Chapter 1- Exploratory Data Analysis" 
-format:
-  html:
-    highlight: null
-    theme: default
-    toc: true
-    toc-title: Contents
-    toc-location: right
-    toc-depth: 3
-    number-sections: true
-    link-external-newwindow: true
-    embed-resources: true
-jupyter: python3
+
 ---
 
-![](../../images/AF_DSC_banner.png){fig-alt="Government Analysis Function and Data Science Campus Logos."}
+
 
 # Introduction
 
@@ -71,7 +60,7 @@ Tidy data is a set of values, where each `value` is placed in its own “cell”
 
 ```{python}
 # read in the salary data
-salaries = pd.read_csv("../../data/faculty-data.csv") 
+salaries = pd.read_csv("../data/faculty-data.csv") 
 ```
 
 ```{python}
@@ -111,7 +100,7 @@ To get started, let's explore the following questions for our dataset.
 
 One of the things we will wish to know about our variables are whether they are continuous or categorical. 
 
-<img src="../../images/continuous_discrete.png"  width="700" height="700" alt="Continuous values include weight and height. Categorical variables are discrete things, like the number of octopus legs.">
+<img src="../images/continuous_discrete.png"  width="700" height="700" alt="Continuous values include weight and height. Categorical variables are discrete things, like the number of octopus legs.">
 Image Credit:  @AllisonHorst.
 
 

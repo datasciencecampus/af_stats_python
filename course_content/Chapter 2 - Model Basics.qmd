@@ -1,20 +1,10 @@
 ---
 title: "Chapter 2 -Model Basics" 
-format:
-  html:
-    highlight: null
-    theme: default
-    toc: true
-    toc-title: Contents
-    toc-location: right
-    toc-depth: 3
-    number-sections: true
-    link-external-newwindow: true
-    embed-resources: true
+
 jupyter: python3
 ---
 
-![](../../images/AF_DSC_banner.png){fig-alt="Government Analysis Function and Data Science Campus Logos."}
+
 
 # Introduction
 
@@ -72,7 +62,7 @@ There are 2 key parts to a model, the family of models and the fitted model.
     
     <br>
 
-<img src="../../images/clothesline.jpg"  width="800" height="800" alt="A clothesline with different pieces of clothing hanging.">
+<img src="../images/clothesline.jpg"  width="800" height="800" alt="A clothesline with different pieces of clothing hanging.">
 
 Image Credit: [Clothesline](https://www.flickr.com/photos/34379543@N06/3468402366) 
 
@@ -86,7 +76,7 @@ Image Credit: [Clothesline](https://www.flickr.com/photos/34379543@N06/346840236
     
 
     
-<img src="../../images/tailor_fit.jpg"  width="600" height="600" alt="Tailor fitting a suit.">
+<img src="../images/tailor_fit.jpg"  width="600" height="600" alt="Tailor fitting a suit.">
 
 Image Credit: [John Boyer Bespoke Suit Tailors](https://www.behance.net/gallery/30289889/John-Boyer-Bespoke-Suit-Tailors) 
 
@@ -138,7 +128,7 @@ We're interested in exploring the questions "What influences a professor's salar
 
 ```{python}
 # read in the salary data
-salaries = pd.read_csv("../../data/faculty-data.csv") 
+salaries = pd.read_csv("../data/faculty-data.csv") 
 ```
 
 ```{python}
@@ -1042,7 +1032,7 @@ $\frac{\text{Variance explained by the model}}{ \text{Total variance}}$.
 
 The `likelihood` is the probability of the observed outcome (i.e. the data) given a particular choice of parameters. For a particular statistical model, maximum likelihood finds the set of parameters *that makes the observed data most likely to have occurred*. That is, we find the set of parameters that makes the likelihood as large as possible.
 
-<img src="../../images/likelihood_example.png"  width="800" height="800" alt="Maximum likelihood diagram.">
+<img src="../images/likelihood_example.png"  width="800" height="800" alt="Maximum likelihood diagram.">
 
 Image Credit: Ashan Priyadarshan. [Maximum likelihood](https://medium.com/quick-code/maximum-likelihood-estimation-for-regression-65f9c99f815d)
 

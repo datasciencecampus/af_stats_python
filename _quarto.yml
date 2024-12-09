@@ -7,6 +7,9 @@ project:
 website:
   title: "Statistics in Python"
 
+  repo-url: https://github.com/datasciencecampus/af_stats_python
+  repo-actions: [source, issue]
+  reader-mode: true
   
   sidebar:
     logo-href: /index.html

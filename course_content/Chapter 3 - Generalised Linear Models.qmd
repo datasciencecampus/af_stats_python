@@ -1,20 +1,8 @@
 ---
 title: "Chapter 3 -Generalised Linear Models" 
-format:
-  html:
-    highlight: null
-    theme: default
-    toc: true
-    toc-title: Contents
-    toc-location: right
-    toc-depth: 3
-    number-sections: true
-    link-external-newwindow: true
-    embed-resources: true
+
 jupyter: python3
 ---
-
-![](../../images/AF_DSC_banner.png){fig-alt="Government Analysis Function and Data Science Campus Logos."}
 
 # Introduction
 
@@ -226,7 +214,7 @@ The Poisson distribution gives the distribution of the number of individuals, ar
 
 This is the common distribution to use whenever things are counted and when they are discrete (e.g. you cannot have 1.5 of a person).
 
-<img src="../../images/wildebeest.jfif"  width="800" height="800" alt="The number of wildebeest is an example of count data that might be modelled using a Poisson distribution.">
+<img src="../images/wildebeest.jfif"  width="800" height="800" alt="The number of wildebeest is an example of count data that might be modelled using a Poisson distribution.">
 
 Image Credit: [Bjørn Christian Tørrissen CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) via Wikimedia Commons.
 
@@ -390,7 +378,7 @@ This exercise aims to demonstrate the implementation of a count model using glms
 
 ```{python}
 # Read in Data
-bikes = pd.read_csv("../../data/Brooklyn_Bridge_Bicycle_Counts.csv")
+bikes = pd.read_csv("../data/Brooklyn_Bridge_Bicycle_Counts.csv")
 
 # Make column names lowercase
 bikes.columns = bikes.columns.str.lower()
@@ -915,7 +903,7 @@ GLMs are a flexible tool, and well worth knowing, however, the discrete dependen
 
 In this course we have covered linear regression and a few examples of generalized linear models. There is a whole range of models we can fit. Some of the topics we haven't covered is capturing structure in our data (e.g. repeated measures, spatial and temporal correlation, random effects, generalised additive models etc.).
 
-<img src="../../images/statistical_models_bolker.PNG"  width="800" height="800" alt="Diagram of the Statistical Model Ecosystem.">
+<img src="../images/statistical_models_bolker.PNG"  width="800" height="800" alt="Diagram of the Statistical Model Ecosystem.">
 
 Image Credit: Ecological Models and Data in R by Ben Bolker 2007, pg 397.
 
