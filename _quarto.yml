@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
   resources: 
     - "*.csv"
     - "*.xlsx"
@@ -14,16 +13,16 @@ website:
     style: "docked"
     search: true
     contents:
-      - text: "Dataset"
-        href: data.qmd 
+      - text: "Datasets"
+        href: datasets.qmd 
       - text: "Course Information"
         href: index.qmd
-      - text: "Chapter 1 - Exploratory Data Analysis"
-        href: course_content/main_chapters/Chapter 1 - Exploratory Data Analysis.qmd
-      - text: "Chapter 2 - Model Basics"
-        href: course_content/main_chapters/Chapter 2 - Model Basics.qmd  
-      - text: "Chapter 3 - Generalised Linear Models"
-        href: course_content/main_chapters/Chapter 3 - Generalised Linear Models.qmd
+      - text: "1 - Exploratory Data Analysis"
+        href: course_content/Chapter 1 - Exploratory Data Analysis.qmd
+      - text: "2 - Model Basics"
+        href: course_content/Chapter 2 - Model Basics.qmd  
+      - text: "3 - Generalised Linear Models"
+        href: course_content/Chapter 3 - Generalised Linear Models.qmd
 
 format:
   html:

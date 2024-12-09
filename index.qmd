@@ -1,16 +1,6 @@
 ---
 title: Statistics in Python
-format:
-  html:
-    highlight: null
-    theme: default
-    toc: true
-    toc-title: Contents
-    toc-location: right
-    toc-depth: 3
-    number-sections: true
-    link-external-newwindow: true
-    embed-resources: true
+
 jupyter: python3
 ---
 ![](images/AF_DSC_banner.png){fig-alt="Government Analysis Function and Data Science Campus Logos."}

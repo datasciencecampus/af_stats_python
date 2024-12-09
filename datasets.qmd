@@ -1,0 +1,12 @@
+---
+title: Datasets 
+jupyter: python3
+---
+
+Below are the list of datasets used throughout the course. Click on the links to download the data files:
+
+[Download Brook_Bridge_Bicycle_Counts.csv](data/Brooklyn_Bridge_Bicycle_Counts.csv)
+
+[Download faculty-data.csv](data/faculty-data.csv)
+
+
